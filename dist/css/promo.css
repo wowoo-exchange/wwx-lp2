@@ -1,0 +1,41 @@
+body {
+  background-image: url(../imgs/bg-cubes.png);
+  background-repeat: no-repeat;
+  background-size: 630px;
+  background-position: 108% -150px;
+  background-attachment: fixed;
+}
+
+#content1 {
+	padding-top: 150px;
+	width: auto;
+	height: 100%; }
+.main-content
+.nav
+.col
+.figure
+img { width: 330px; }
+.disclaimer {
+	background: #E6211A !important;
+	opacity: 0.9;
+	font-size: 13px; }
+.icon: default { background: rgba(218,224,230,0.50) !important; }
+.icon: hover { background: rgba(191,223,255,0.80) !important; }
+.main-content
+.start-your-journey,
+.sign-up, .nav,
+.exclusive-offer { padding-bottom: 1.5em; }
+.start-your-journey .title {
+	font-size: 130px;
+	font-weight: bold; }
+.sign-up .btn {
+	padding-left: 3em;
+  padding-right: 3em;
+  border-radius: 1em;
+  background-color: #e62218; }
+.exclusive-offer .new-user-offers {
+	border-left-style: solid;
+	border-left-color: #e62218;
+	border-left-width: 0.4em; }
+
+

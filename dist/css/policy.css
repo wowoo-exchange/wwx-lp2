@@ -1,0 +1,49 @@
+
+#content1 {
+  padding-top: 150px;
+}
+
+#content1 h1 {
+  font-size: 70px;
+  text-align: left;
+  line-height: 75px;
+  font-weight: 900;
+  color: rgb(61, 73, 87);
+  margin: 0px; }
+#content1 p {
+  text-align: left;
+  font-weight: 300;
+  color: rgb(74, 74, 74);
+  font-size: 14px;
+  line-height: 1.5em;
+  margin-top: 10px;
+}
+#content1 .underline {
+  text-decoration: underline;
+}
+#content1 strong {
+  font-weight: 700;
+}
+#content1 ol {
+  font-weight: 700;
+  padding-left: 0;
+  margin-left: 0;
+  list-style-position: inside;
+}
+#content1 li {
+  text-align: left;
+}
+#content1 ul.normal {
+  font-size: 14px;
+  font-weight: 400;
+
+}
+#content1 a {
+  color: rgb(0, 81, 255);
+  transition: color 200ms;
+}
+@media (hover:hover) {
+  #content1 a:hover {
+    color: #40a9ff;;
+  }
+}
