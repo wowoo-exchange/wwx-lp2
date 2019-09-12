@@ -12,13 +12,13 @@ function modalTriggered(id) {
     "teamMember7": "Peter Man"
   };
   const membersProfile = {
-    "teamMember1": "<img src='./dist/imgs/staff/willie_chang.jpg' class='img-fluid'>",
-    "teamMember2": "<img src='./dist/imgs/staff/ashish_varma.jpg' class='img-fluid'>",
-    "teamMember3": "<img src='./dist/imgs/staff/wenyun_yuan.jpg' class='img-fluid'>",
-    "teamMember4": "<img src='./dist/imgs/staff/praveena_prabha.jpg' class='img-fluid'>",
-    "teamMember5": "<img src='./dist/imgs/staff/sheree_tay.jpg' class='img-fluid'>",
-    "teamMember6": "<img src='./dist/imgs/staff/ebish_najar.jpg' class='img-fluid'>",
-    "teamMember7": "<img src='./dist/imgs/staff/peter_man.jpg' class='img-fluid'>"
+    "teamMember1": "<img src='./assets/imgs/staff/willie_chang.jpg' class='img-fluid'>",
+    "teamMember2": "<img src='./assets/imgs/staff/ashish_varma.jpg' class='img-fluid'>",
+    "teamMember3": "<img src='./assets/imgs/staff/wenyun_yuan.jpg' class='img-fluid'>",
+    "teamMember4": "<img src='./assets/imgs/staff/praveena_prabha.jpg' class='img-fluid'>",
+    "teamMember5": "<img src='./assets/imgs/staff/sheree_tay.jpg' class='img-fluid'>",
+    "teamMember6": "<img src='./assets/imgs/staff/ebish_najar.jpg' class='img-fluid'>",
+    "teamMember7": "<img src='./assets/imgs/staff/peter_man.jpg' class='img-fluid'>"
   };
   const membersBG = {
     "Willie Chang": "<p>Willie is the Chief Executive Officer of Wowoo Exchange. A leader with over twenty years of experience in fintech, investment banking and management consulting, he served as the Head of Strategic Planning and Business Development at Mizuho Securities in Singapore and also held management positions at Lehman Brothers and Deloitte Consulting prior to joining Wowoo Exchange.</p><p>Willie holds an MBA from the Kellogg School of Management at Northwestern University, and graduated summa cum laude from the University of Washington. He is fluent in English, Mandarin, and Japanese and has previous work experience in several countries, including the United States, Australia, Japan and Singapore.</p>",
