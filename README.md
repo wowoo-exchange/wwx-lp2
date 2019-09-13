@@ -1,4 +1,4 @@
-Development Branch
+Master Branch
 
 Reminder:
-Please fix everything here on the Development Branch before merging into Master Branch.
+Please fix everything from Development Branch before merging here in Master Branch.
