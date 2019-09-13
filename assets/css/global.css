@@ -38,11 +38,6 @@ hr {
   left: 0;
   right: 0;
   background-color: transparent; }
-#header #btn-sign-up {
-  padding-left: 20px;
-  padding-right: 20px;
-  border-radius: 20px;
-  margin-left: 10px; }
 #header>div {
   height: 100px;
   display: grid;
@@ -54,9 +49,6 @@ hr {
   margin: 0;
   align-self: center;
   justify-self: left; }
-#header h1 .logo {
-  display: block;
-  height: 60px; }
 #header h1 span { display: none; }
 #header nav {
   align-self: center;
@@ -95,18 +87,39 @@ hr {
   padding-bottom: 75px;
 }
 
+/* Medium devices and up */
 @media only screen and (max-width: 767px) {
+  #header h1 .logo {
+    display: block;
+    height: 40px;
+  }
   #header-content #exchange-for-everyone {
     font-size: 47px;
     padding-top: 0px;
+  }
+  #header #btn-sign-up {
+    padding-left: 10px;
+    padding-right: 10px;
+    border-radius: 20px;
+    margin-left: 10px;
   }
 }
 
 /* Medium devices and up */
 @media only screen and (min-width: 768px) {
+  #header h1 .logo {
+    display: block;
+    height: 60px;
+  }
   #header-content #exchange-for-everyone {
     font-size: 65px;
     padding-top: 20px;
+  }
+  #header #btn-sign-up {
+    padding-left: 20px;
+    padding-right: 20px;
+    border-radius: 20px;
+    margin-left: 10px;
   }
 }
 
@@ -183,6 +196,7 @@ cookie policy styles
   animation-duration: 1s;
   animation-timing-function: ease-in-out;
   opacity: 0;
+  z-index: -1;
 }
 @keyframes show-cookies {
   from { opacity: 0; bottom: -80px; }
