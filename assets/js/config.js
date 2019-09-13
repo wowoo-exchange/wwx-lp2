@@ -3,7 +3,7 @@ if (!window.wowoo) window.wowoo = {};
 
 
 // set working environment -> [prod|uat|local]
-window.wowoo.env = 'uat';
+window.wowoo.env = 'prod';
 //window.wowoo.env = 'prod';
 //window.wowoo.env = 'local';
 
