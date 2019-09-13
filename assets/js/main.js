@@ -77,9 +77,9 @@ Sticky header resizer
 }
 
   function onScroll() {
-    let curY = document.body.scrollTop > offsetY || document.documentElement.scrollTop;
-    document.querySelector(sel_header).classList.toggle(toggleClass, curY > offsetY);
-  }
+     let curY = document.body.scrollTop || document.documentElement.scrollTop;
+     document.querySelector(sel_header).classList.toggle(toggleClass, curY > offsetY);
+   }
 
 })();
 
