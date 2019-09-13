@@ -61,7 +61,7 @@ hr {
 #header nav {
   align-self: center;
   justify-self: right; }
-#header, #header * { transition: background-color 500ms; }
+#header, #header * { transition: all 500ms; }
 #header.solid,
 #header.scrolled {
   background-color: #151730;
