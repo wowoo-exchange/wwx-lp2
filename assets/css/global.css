@@ -37,7 +37,7 @@ hr {
   top: 0;
   left: 0;
   right: 0;
-  background: transparent; }
+  background-color: transparent; }
 #header #btn-sign-up {
   padding-left: 20px;
   padding-right: 20px;
@@ -61,9 +61,10 @@ hr {
 #header nav {
   align-self: center;
   justify-self: right; }
-#header, #header * { transition: all 500ms; }
+#header, #header * { transition: background-color 500ms; }
+#header.solid,
 #header.scrolled {
-  background: #151730;
+  background-color: #151730;
   box-shadow: 0 2px 4px 0 rgba(10, 20, 47, 0.30); }
 #header.scrolled > div { height: 64px; }
 #header.scrolled .logo { height: 40px; }

@@ -69,11 +69,16 @@ Sticky header resizer
   let evt = new Event('scroll');
   let elm = document.querySelector(sel_header);
   if (elm) {
-    window.addEventListener('scroll', e => elm.classList.toggle(
-      toggleClass,
-      document.body.scrollTop > offsetY || document.documentElement.scrollTop > offsetY
-    ));
-    elm.dispatchEvent(evt);
+    window.addEventListener('scroll', onScroll);
+
+    // trigger manually first time
+    // elm.dispatchEvent(evt); not working every time, so calling manually
+    onScroll();
+}
+
+  function onScroll() {
+    let curY = document.body.scrollTop > offsetY || document.documentElement.scrollTop;
+    document.querySelector(sel_header).classList.toggle(toggleClass, curY > offsetY);
   }
 
 })();
