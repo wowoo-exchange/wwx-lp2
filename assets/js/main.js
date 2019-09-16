@@ -153,7 +153,7 @@ cookies policy
     //show dialog
     let banner = document.createElement('div');
     banner.id="cookie-policy-popup";
-    banner.innerHTML = '<p><strong>Wowoo Exchange use cookies to offer you a better user experience.</strong><br />By continuing to use our website, you consent to the use of cookies in accordance with our <a href="./cookies.html">Cookies Policy</a>.</p><button>Accept &amp; Continue</button>';
+    banner.innerHTML = '<p><strong>Wowoo Exchange uses cookies to offer you a better user experience.</strong><br />By continuing to use our website, you consent to the use of cookies in accordance with our <a href="./cookies.html">Cookies Policy</a>.</p><button>Accept &amp; Continue</button>';
     document.body.appendChild(banner);
 
     document.querySelector('#cookie-policy-popup button').addEventListener('click', acceptCookies);
