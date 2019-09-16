@@ -17,8 +17,9 @@ body {
 img { width: 330px; }
 .disclaimer {
 	background: #E6211A !important;
-	opacity: 0.9;
-	font-size: 13px; }
+	color: #e8e8e8;
+	font-size: 13px;
+	opacity: 0.9; }
 .icon: default { background: rgba(218,224,230,0.50) !important; }
 .icon: hover { background: rgba(191,223,255,0.80) !important; }
 .main-content
