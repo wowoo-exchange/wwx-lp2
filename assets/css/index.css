@@ -67,6 +67,7 @@ Index Content Styles
   background-size: 550px;
   background-position: 102px -100px;
   background-repeat: no-repeat; }
+#offers { margin-left: 14px; }
 #offers #user-offers {
   border-left-style: solid;
   border-left-color: #e62218;
