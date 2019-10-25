@@ -20,12 +20,10 @@ hr {
 .btn-danger { background: #E6211A !important; }
 .text-danger { color: #E6211A !important; }
 .jumbotron {
-    height: 100%;
     margin: 0px;
     padding: 2rem 2rem;
     margin-bottom: -0.1rem;
     border-radius: 0px;
-    min-height: 100%;
     background: #fff; }
 
 /*Header*/
