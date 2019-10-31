@@ -1,20 +1,16 @@
 if (!window.wowoo) window.wowoo = {};
 
 
-
 // set working environment -> [prod|uat|local]
 window.wowoo.env = 'prod';
-//window.wowoo.env = 'prod';
-//window.wowoo.env = 'local';
-
 
 
 // environment specific settings
 switch(window.wowoo.env) {
 
   case 'prod':
-    wowoo.mailerHost   = 'https://wowoo.exchange/api/mailer';
-    wowoo.cookieDomian = '.wowoo.exchange';
+    wowoo.mailerHost   = 'https://wowooexchange.sg/api/mailer';
+    wowoo.cookieDomian = '.wowooexchange.sg';
     break;
 
   case 'uat':
@@ -28,8 +24,6 @@ switch(window.wowoo.env) {
     break;
 
 }
-
-
 
 
 // cookies policy check life (in days)
