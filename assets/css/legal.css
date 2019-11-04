@@ -1,0 +1,11 @@
+#content1 {
+  padding-top: 150px;
+  color: rgb(61, 73, 87);
+}
+
+#content1 h1 {
+	font-size: 70px;
+  text-align: left;
+  line-height: 75px;
+  font-weight: 900;
+}
