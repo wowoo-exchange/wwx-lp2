@@ -33,15 +33,9 @@
 
 #content1 .chiefs,
 #content1 .heads { padding: 10px; }
-#content1 .chiefs img {
-  margin-bottom: 25px;
-  background-color: gray;
-  border-radius: 50%;
-  width: 200px;
-  height: 200px; }
+#content1 .chiefs img,
 #content1 .heads img {
   margin-bottom: 25px;
-  background-color: gray;
   border-radius: 50%;
   width: 200px;
   height: 200px; }

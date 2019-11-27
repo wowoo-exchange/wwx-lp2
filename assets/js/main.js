@@ -3,39 +3,47 @@ Modal triggered
 ----------------------------------------------------------*/
 function modalTriggered(id) {
   const membersName = {
-    "teamMember1": "Willie Chang",
-    "teamMember2": "Ashish Varma",
-    "teamMember3": "Wenyun Yuan",
-    "teamMember4": "Praveena Prabha",
-    "teamMember5": "Sheree Tay",
-    "teamMember6": "Ebish Najar",
-    "teamMember7": "Peter Man"
+    "teamMember1": "Ashish Varma",
+    "teamMember2": "Willie Chang",
+    "teamMember3": "Samuel Bourque",
+    "teamMember4": "Wenyun Yuan",
+    "teamMember5": "Lawrence Lim",
+    "teamMember6": "Sheree Tay",
+    "teamMember7": "Ebish Najar",
+    "teamMember8": "Sultan Arif",
+    "teamMember9": "Peter Man"
   };
   const membersProfile = {
-    "teamMember1": "<img src='./assets/imgs/staff/willie_chang.jpg' class='img-fluid'>",
-    "teamMember2": "<img src='./assets/imgs/staff/ashish_varma.jpg' class='img-fluid'>",
-    "teamMember3": "<img src='./assets/imgs/staff/wenyun_yuan.jpg' class='img-fluid'>",
-    "teamMember4": "<img src='./assets/imgs/staff/praveena_prabha.jpg' class='img-fluid'>",
-    "teamMember5": "<img src='./assets/imgs/staff/sheree_tay.jpg' class='img-fluid'>",
-    "teamMember6": "<img src='./assets/imgs/staff/ebish_najar.jpg' class='img-fluid'>",
-    "teamMember7": "<img src='./assets/imgs/staff/peter_man.jpg' class='img-fluid'>"
+    "teamMember1": "<img src='./assets/imgs/staff/ashish_varma.jpg' class='img-fluid'>",
+    "teamMember2": "<img src='./assets/imgs/staff/willie_chang.jpg' class='img-fluid'>",
+    "teamMember3": "<img src='./assets/imgs/staff/samuel_bourque.png' class='img-fluid'>",
+    "teamMember4": "<img src='./assets/imgs/staff/wenyun_yuan.jpg' class='img-fluid'>",
+    "teamMember5": "<img src='./assets/imgs/staff/lawrence_lim.png' class='img-fluid'>",
+    "teamMember6": "<img src='./assets/imgs/staff/sheree_tay.png' class='img-fluid'>",
+    "teamMember7": "<img src='./assets/imgs/staff/ebish_najar.jpg' class='img-fluid'>",
+    "teamMember8": "<img src='./assets/imgs/staff/sultan_arif.png' class='img-fluid'>",
+    "teamMember9": "<img src='./assets/imgs/staff/peter_man.jpg' class='img-fluid'>"
   };
   const membersBG = {
-    "Willie Chang": "<p>Willie is the Chief Executive Officer of Wowoo Exchange Singapore. A leader with over twenty years of experience in fintech, investment banking and management consulting, he served as the Head of Strategic Planning and Business Development at Mizuho Securities in Singapore and also held management positions at Lehman Brothers and Deloitte Consulting prior to joining Wowoo Exchange Singapore.</p><p>Willie holds an MBA from the Kellogg School of Management at Northwestern University, and graduated summa cum laude from the University of Washington. He is fluent in English, Mandarin, and Japanese and has previous work experience in several countries, including the United States, Australia, Japan and Singapore.</p>",
     "Ashish Varma": "<p>Ashish is the Chief Operating Officer of Wowoo Exchange Singapore, with extensive experience in building and launching cryptocurrency exchanges. He was Head of Trading & Operations at Liquid, a leading exchange approved by the Japanese FSA. Ashish also built and launched another trading platform called Alluma, prior to joining Wowoo Exchange Singapore.</p><p>Ashish holds a master’s degree in Financial Mathematics from Cass Business School, as well as a bachelor’s degree in Economics & Statistics from University College London.</p>",
-    "Wenyun Yuan": "<p>Wenyun is the Chief Financial Officer of Wowoo Exchange Singapore. He has over a decade of experience in operations consulting, external and internal audit. Additionally, he led projects, as well as managed teams at PricewaterhouseCoopers and Fraser & Neave prior to joining Wowoo Exchange Singapore.</p><p>Wenyun holds an MBA from INSEAD and a Bachelor of Accountancy from Singapore Management University. He is also a Chartered Accountant, and an Enterprise Singapore recognised management consultant. He is fluent in English and Mandarin, and has previous work experience in several countries, including France, Scotland, China, and Singapore.</p>",
-    "Praveena Prabha": "<p>Praveena is the Head of Compliance of Wowoo Exchange Singapore. She has over seven years of regulatory compliance experience and specializes in the cryptocurrency, payments and remittance industry.</p><p>Prior to joining Wowoo Exchange Singapore, she served as Head of Compliance for a regional cryptocurrency exchange, where she set up and managed the compliance team and created the compliance framework. She also oversaw Southeast Asia regulatory compliance for a financial technology firm dealing in payments and remittance, and performed management consultancy services for bulge bracket banks.</p><p>Praveena holds a Bachelor of Business Management from Royal Melbourne Institute of Technology.</p>",
+    "Willie Chang": "<p>Willie is the Chief Executive Officer of Wowoo Exchange Singapore. A leader with over twenty years of experience in fintech, investment banking and management consulting, he served as the Head of Strategic Planning and Business Development at Mizuho Securities in Singapore and also held management positions at Lehman Brothers and Deloitte Consulting prior to joining Wowoo Exchange Singapore.</p><p>Willie holds an MBA from the Kellogg School of Management at Northwestern University, and graduated summa cum laude from the University of Washington. He is fluent in English, Mandarin, and Japanese and has previous work experience in several countries, including the United States, Australia, Japan and Singapore.</p>",
+    "Samuel Bourque": "<p>Samuel is the Chief Technology Officer of Wowoo Exchange Singapore. Having several decades of experience as a computer programer, he has a long career in technology divisions in large multinational institutions. He served as Vice President in Morgan Stanley as Head of Trading Systems Infrastructure for Japan on High Frequency Trading Systems, as well as Deputy Director in AIG KK (Japan) having formed the Automation and Tooling team in the Network Department, prior to joining Wowoo Exchange Singapore.</p><p>Samuel holds degrees in Physics and Computer Science, both from the Univeristé de Moncton, as well as a Juris Doctor from the City University of Hong Kong, School of Law.</p>",
+    "Wenyun Yuan": "<p>Wenyun is the Chief Financial Officer of Wowoo Exchange Singapore. He has over a decade of experience in operations consulting, external and internal audit. Additionally, he led projects, as well as managed teams at PricewaterhouseCoopers and Fraser &amp; Neave prior to joining Wowoo Exchange Singapore.</p><p>Wenyun holds an MBA from INSEAD and a Bachelor of Accountancy from Singapore Management University. He is also a Chartered Accountant, and an Enterprise Singapore recognised management consultant. He is fluent in English and Mandarin, and has previous work experience in several countries, including France, Scotland, China, and Singapore.</p>",
+    "Lawrence Lim": "<p>Lawrence is the Head of Compliance and Risk of Wowoo Exchange Singapore. He has 18 years of governance, risk and compliance experiences in risk intelligence advisory services, regulatory compliance, anti-money laundering/countering of financing terrorism and economic sanctions management in the big four accounting firms and in the banking industry. Prior to joining Wowoo Exchange Singapore, Lawrence was in the Regional AML/CFT Advisory Team in one of the local banks, covering major markets in China, Hong Kong, Japan, India, USA on AML/CFT related issues. He was also the Head of Compliance of an international wholesale bank in Singapore and had held the role of Money Laundering Reporting Officer, Suspicious Transactions Reporting Officer and had been the key liaison officer to the regulatory authorities i.e. MAS, CAD, CPIB, IRAS. He was also instrumental in building the compliance framework for the bank.</p><p>Lawrence is a certified chartered accountant and a certified internal auditor by professional training.</p>",
     "Sheree Tay": "<p>Sheree is the Head of Legal at Wowoo Exchange Singapore. Having spent 15 years working across three jurisdictions, London, Hong Kong and Singapore, she brings with her a wealth of legal experience. Prior to joining Wowoo Exchange Singapore, Sheree worked in top-tier international law firms, and as in-house legal at Citibank.</p><p>Sheree graduated with a LLB from King's College London and is a dual-qualified lawyer, admitted as an Advocate and Solicitor of the Supreme Court of Singapore and a Solicitor in England and Wales. She is fluent in English and Mandarin.</p>",
     "Ebish Najar": "<p>Ebish is the Head of Customer Support of Wowoo Exchange Singapore. He is a certified IT professional with close to 20 years of experience in the IT industry. Prior to joining Wowoo Exchange Singapore, he was the IT Director of a leading Danish IT firm, and provided advisory to clients in the global shipping and private security sectors. Ebish also held multiple senior positions in banking and financial institutions.</p><p>Ebish holds a bachelor’s degree in Biology from Cebu Doctors University, as well as a bachelor’s degree in Information Technology from Informatics College. He holds a CHT Certification from NCSA Texas, multiple Microsoft and CISCO certifications for Network and Server Administration, and the ITIL Certification.</p>",
+    "Sultan Arif": "<p>Sultan is Head of Marketing at Wowoo Exchange Singapore. He possess over 18 years of marketing experience, split between both B2B and B2C landscapes. Sultan has worked both client side and agency side, for organizations ranging from start up to multinational.</p><p>Experienced in a wide-range of marketing disciplines, Sultan has utilized everything from direct mail, database, web, email and social media marketing platforms throughout his career.</p><p>Sultan's experience extends across a number of industries ranging from online retail, automotive, FMCG, publishing and banking in the UK, Japan, Australia and across the SEA region.</p>",
     "Peter Man": "<p>Peter is the Head of Operations of Wowoo Exchange Singapore. He has over 12 years of financial services experience across management consulting, project management, financial control and audit. Prior to joining Wowoo Exchange Singapore, Peter worked at a management consultancy where he oversaw the implementation of Trade Based AML controls within Operations, and the implementation of trade finance DLT platforms within a traditional corporate bank.</p><p>Peter graduated from University College London and qualified as a Chartered Accountant. He previously worked at PricewaterhouseCoopers, London, before moving to Barclays in Singapore where he managed several key transformation projects for the investment bank.</p>"
   };
   const position = {
-    "Willie Chang": "Chief Executive Officer",
     "Ashish Varma": "Chief Operating Officer",
+    "Willie Chang": "Chief Executive Officer",
+    "Samuel Bourque": "Chief Technology Officer",
     "Wenyun Yuan": "Chief Financial Officer",
-    "Praveena Prabha": "Head of Compliance",
+    "Lawrence Lim": "Head of Compliance and Risk",
     "Sheree Tay": "Head of Legal",
     "Ebish Najar": "Head of Customer Support",
+    "Sultan Arif": "Head of Marketing",
     "Peter Man": "Head of Operations"
   };
 
