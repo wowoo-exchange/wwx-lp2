@@ -1,9 +1,7 @@
 .modal.show .modal-dialog {
   padding-top: 80px;
   -webkit-transform: translate(0,0);
-  transform: translate(0,0);
-}
-
+  transform: translate(0,0); }
 #content1 { padding-top: 150px; }
 #content1 h1 {
   font-size: 70px;
@@ -18,23 +16,15 @@
   font-size: 25px;
   line-height: 35px;
   margin-top: 10px; }
-/*#content1 .heads,
-#content1 .chiefs {
-  margin-top: 50px;
-  margin-bottom: 50px; }*/
 #content1 #name {
   font-size: 25px;
   font-weight: 700;
   line-height: 30px;
   color: rgb(60, 73, 88);
   margin: 0px;
-  padding: 0px;
-}
-
-#content1 .chiefs,
-#content1 .heads { padding: 10px; }
-#content1 .chiefs img,
-#content1 .heads img {
+  padding: 0px; }
+#content1 .member { padding: 10px; }
+#content1 .member img {
   margin-bottom: 25px;
   border-radius: 50%;
   width: 200px;
@@ -42,5 +32,4 @@
 #modalContentProfile img {
   height: 200px;
   width: 200px;
-  border-radius: 50%;
-}
+  border-radius: 50%; }
