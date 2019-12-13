@@ -11,7 +11,8 @@ header { z-index: 1000; }
 h1,h2,h3,h4, h5,h6 { font-weight: 700; }
 a, a:hover {
   text-decoration: none;
-  color: #fff; }
+  color: #fff;
+}
 hr {
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -25,6 +26,10 @@ hr {
     margin-bottom: -0.1rem;
     border-radius: 0px;
     background: #fff; }
+.dropdown-menu.show {
+  background-color: #07132e;
+  border: none;
+}
 
 /*Header*/
 /*sticky header styles*/
@@ -36,14 +41,7 @@ hr {
   left: 0;
   right: 0;
   background-color: transparent; }
-#header>div {
-  height: 100px;
-  display: grid;
-  grid-template-columns: auto auto;
-  max-width: 1280px;
-  padding: 0 6%;
-  margin: auto; }
-#header h1 {
+#header #logo{
   margin: 0;
   align-self: center;
   justify-self: left; }
@@ -56,8 +54,8 @@ hr {
 #header.scrolled {
   background-color: #151730;
   box-shadow: 0 2px 4px 0 rgba(10, 20, 47, 0.30); }
-#header.scrolled > div { height: 64px; }
-#header.scrolled .logo { height: 40px; }
+#header.scrolled > nav { height: 64px; }
+#header.scrolled #logo { height: 40px; }
 #header-content {
   background-color: #1c1f3a;
   background-image:
@@ -85,27 +83,32 @@ hr {
   padding-bottom: 75px;
 }
 
-/* Medium devices and up */
+/* Medium devices and down */
 @media only screen and (max-width: 767px) {
-  #header h1 .logo {
-    display: block;
-    height: 40px;
+  #header>nav {
+    height: auto !important;
+    grid-template-columns: auto auto;
+    z-index: 1000 !important;
   }
-  #header-content #exchange-for-everyone {
-    font-size: 47px;
-    padding-top: 0px;
+  .navbar-collapse#navbarCollapse .signing-button {
+    width: 100% !important; 
   }
-  #header #btn-sign-up {
-    padding-left: 10px;
-    padding-right: 10px;
-    border-radius: 20px;
-    margin-left: 10px;
+  #header >nav {
+    background-color: #07132e; 
+  }
+  #header #logo {
+    height: 40px !important;
   }
 }
 
 /* Medium devices and up */
 @media only screen and (min-width: 768px) {
-  #header h1 .logo {
+  #header>nav {
+    height: 100px;
+    grid-template-columns: auto auto;
+    margin: auto;
+  }
+  #header #logo {
     display: block;
     height: 60px;
   }
@@ -113,7 +116,7 @@ hr {
     font-size: 65px;
     padding-top: 20px;
   }
-  #header #btn-sign-up {
+  #header .signing-button {
     padding-left: 20px;
     padding-right: 20px;
     border-radius: 20px;
