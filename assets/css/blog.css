@@ -1,0 +1,12 @@
+#content1 {
+  padding-top: 85px;
+  color: rgb(61, 73, 87); }
+#content1 h1#content-title {
+	font-size: 50px;
+  text-align: left;
+  line-height: 75px;
+  font-weight: 900;
+  color: rgb(61, 73, 87); }
+figure>a:hover {
+  text-decoration: none;
+  color: rgb(61, 73, 87); }

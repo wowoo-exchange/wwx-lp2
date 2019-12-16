@@ -22,13 +22,23 @@ hr {
 .text-danger { color: #E6211A !important; }
 .jumbotron {
     margin: 0px;
-    padding: 2rem 2rem;
+    /*padding: 2rem 2rem;*/
     margin-bottom: -0.1rem;
     border-radius: 0px;
     background: #fff; }
 .dropdown-menu.show {
   background-color: #07132e;
-  border: none;
+  border: none; }
+.figure-caption { font-size: 80% !important; }
+.normal { font-weight: normal; } 
+.thick { font-weight: bold; } 
+.thicker { font-weight: 900; }
+.text-truncate-2 {
+  -webkit-line-clamp: 2;
+  overflow : hidden;
+  text-overflow: ellipsis;
+  display: -webkit-box;
+  -webkit-box-orient: vertical;
 }
 
 /*Header*/
@@ -40,7 +50,7 @@ hr {
   top: 0;
   left: 0;
   right: 0;
-  background-color: transparent; }
+  background-color: #07132e; }
 #header #logo{
   margin: 0;
   align-self: center;
@@ -52,8 +62,8 @@ hr {
 #header, #header * { transition: all 500ms; }
 #header.solid,
 #header.scrolled {
-  background-color: #151730;
-  box-shadow: 0 2px 4px 0 rgba(10, 20, 47, 0.30); }
+  background-color: #151730 !important;
+  box-shadow: 0 2px 4px 0 rgba(10, 20, 47, 0.30) !important; }
 #header.scrolled > nav { height: 64px; }
 #header.scrolled #logo { height: 40px; }
 #header-content {

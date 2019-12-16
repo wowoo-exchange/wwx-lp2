@@ -29,18 +29,47 @@
 </head>
 
 <body>
-  <header id="header" class="solid">
-    <div class="container">
-      <h1>
-        <a href="index.html">
-          <img class="logo" src="assets/imgs/logo-wowoo_sg-dark.svg" alt="Wowoo Exchange Singapore" class="img-fluid">
-        </a>
-      </h1>
-      <nav class="inlform-inline my-2 my-lg-0 text-center">
-        <span><a href="https://trade.wowoo.exchange/signin">Sign In</a></span>
-        <button type="button" class="btn btn-danger" id="btn-sign-up" onclick="location.href='https:\/\/trade.wowoo.exchange/signup'">Sign Up</button>
-      </nav>
-    </div>
+  <header id="header">
+    <nav class="navbar navbar-expand-lg navbar-dark pl-md-5 pr-md-5 ml-md-5 mr-md-5"> 
+      <a class="navbar-brand" href="#">
+        <img  id="logo" src="assets/imgs/logo-wowoo_sg-dark.svg" alt="Wowoo Exchange Singapore" class="img-fluid">
+      </a>
+      <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+        <span class="navbar-toggler-icon"></span>
+      </button>
+      <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
+        <ul class="navbar-nav">
+          <li class="nav-item">
+            <button type="button" 
+                class="btn btn-sm btn-light text-danger mt-md-0 mt-2 signing-button" 
+                onclick="location.href='campaigns/2019/refer-a-friend.html'">
+              Refer a Friend, Gain Rewards
+            </button>
+          </li>
+          <li class="nav-item">
+            <button type="button" 
+                class="btn btn-sm btn-light text-danger mt-md-0 mt-2 signing-button" 
+                onclick="location.href='campaigns/2019/zero-percent-fees.html'">
+              0% fees
+            </button>
+          </li>
+          <li class="nav-item">
+            <button type="button" class="btn btn-sm btn-danger mt-md-0 mt-2 signing-button" onclick="location.href='news/news.html'">News & Updates</button>
+          </li>
+          <li class="nav-item">
+            <button type="button" class="btn btn-sm btn-danger mt-md-0 mt-2 signing-button" onclick="location.href='blog/blog.html'">Blog</button>
+          </li>
+          <li class="nav-item ml-md-5">
+            <button type="button" class="btn btn-sm btn-light text-danger mt-md-0 mt-4 signing-button" onclick="location.href='https:\/\/trade.wowoo.exchange/signin'">Sign in</button>
+          </li>
+          <li class="nav-item">
+            <button type="button" class="btn btn-sm btn-danger mt-md-0 mb-md-0 mt-2 mb-1 signing-button" onclick="location.href='https:\/\/trade.wowoo.exchange/signup'">
+              Sign Up
+            </button>
+          </li>
+        </ul>
+      </div>
+    </nav>
   </header>
 
   <div class="container main-content" id="content1">
@@ -118,7 +147,7 @@
                 <h6>ABOUT</h6>
               </figcaption>
               <a href="team.html">Meet The Team</a><br />
-              <a href="/news">Updates</a>
+              <a href="news/news.html">Updates</a>
             </div>
             <div class="col-md-3 mt-2">
               <figcaption class="figure-caption text-md-left">
