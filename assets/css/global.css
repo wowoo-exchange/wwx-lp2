@@ -103,6 +103,10 @@ hr {
   .navbar-collapse#navbarCollapse .signing-button {
     width: 100% !important; 
   }
+  .navbar.navbar-expand-lg.navbar-dark .collapse.show {
+    background-color: #151730 !important;
+    /*box-shadow: 0 2px 4px 0 rgba(10, 20, 47, 0.30) !important; */
+  }
   #header >nav {
     background-color: #07132e; 
   }
@@ -114,13 +118,13 @@ hr {
 /* Medium devices and up */
 @media only screen and (min-width: 768px) {
   #header>nav {
-    height: 100px;
+    display: grid;
     grid-template-columns: auto auto;
     margin: auto;
   }
   #header #logo {
     display: block;
-    height: 60px;
+    max-width: 170px !important;
   }
   #header-content #exchange-for-everyone {
     font-size: 65px;
