@@ -7,12 +7,10 @@ body {
 }
 
 #content1 {
-  padding-top: 85px;
-  color: rgb(61, 73, 87); }
+  padding-top: 85px; }
 #content1 h1#content-title {
   text-align: left;
-  line-height: 75px;
-  color: rgb(61, 73, 87); }
+  line-height: 75px; }
 .disclaimer {
 	background: #E6211A !important;
 	color: #e8e8e8;
@@ -30,7 +28,7 @@ body {
 /* Medium devices and up */
 @media only screen and (min-width: 768px) {
   h1#content-title {
-    font-size: 75px;
+    font-size: 100px;
     font-weight: 900;
   }
 }
