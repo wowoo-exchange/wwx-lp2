@@ -4,6 +4,7 @@
   <!-- Required meta tags -->
   <meta charset="utf-8">
   <meta name="description" content="Wowoo Exchange Singapore is a digital assets exchange for everyone.">
+  <meta name="keywords" content="Wowoo, Singapore, cryptocurrency, bitcoin, erinthimn, exchange, tokens, wallet, news">
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <link rel="icon" href="./assets/imgs/favicon.png">
   <title>Wowoo Exchange Singapore | A Digital Assets Exchange for Everyone</title>
@@ -15,6 +16,17 @@
   <!-- Globa CSS -->
   <link href="./assets/css/global.css" rel="stylesheet" type="text/css" media="all">
   <link href="./assets/css/index.css" rel="stylesheet" type="text/css" media="all">
+  <style type="text/css">
+    #header {
+      color: #fff;
+      position: fixed;
+      margin: 0;
+      top: 0;
+      left: 0;
+      right: 0;
+      background-color: transparent !important; 
+    }
+  </style>
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-L97ZW5Q67N"></script>
   <script>
@@ -24,20 +36,50 @@
 
     gtag('config', 'G-L97ZW5Q67N');
   </script>
-
 </head>
 
 <body>
   <header id="header">
     <div class="container">
-      <h1>
-        <a href="index.html">
-          <img class="logo" src="assets/imgs/logo-wowoo_sg-dark.svg" alt="Wowoo Exchange Singapore" class="img-fluid">
+      <nav class="navbar navbar-expand-lg navbar-dark"> 
+        <a class="navbar-brand" href="index.html">
+          <img  id="logo" src="assets/imgs/logo-wowoo_sg-dark.svg" alt="Wowoo Exchange Singapore" class="img-fluid">
         </a>
-      </h1>
-      <nav class="inlform-inline my-2 my-lg-0 text-center">
-        <span><a href="https://trade.wowoo.exchange/signin">Sign In</a></span>
-        <button type="button" class="btn btn-danger" id="btn-sign-up" onclick="location.href='https:\/\/trade.wowoo.exchange/signup'">Sign Up</button>
+        <button class="navbar-toggler" type="button" data-toggle="collapse" data-target="#navbarCollapse" aria-controls="navbarCollapse" aria-expanded="false" aria-label="Toggle navigation">
+          <span class="navbar-toggler-icon"></span>
+        </button>
+        <div class="collapse navbar-collapse justify-content-end" id="navbarCollapse">
+          <ul class="navbar-nav">
+            <!-- <li class="nav-item">
+              <button type="button" 
+                  class="btn btn-sm btn-light text-danger mt-md-0 mt-2 signing-button" 
+                  onclick="location.href='campaigns/2019/refer-a-friend.html'">
+                Refer a friend
+              </button>
+            </li>
+            <li class="nav-item">
+              <button type="button" 
+                  class="btn btn-sm btn-light text-danger mt-md-0 mt-2 signing-button" 
+                  onclick="location.href='campaigns/2019/zero-percent-fees.html'">
+                0% fees
+              </button>
+            </li> -->
+            <li class="nav-item">
+              <button type="button" class="btn btn-sm btn-danger mt-md-0 mt-2 signing-button" onclick="location.href='news/news.html'">News & Updates</button>
+            </li>
+            <li class="nav-item">
+              <button type="button" class="btn btn-sm btn-danger mt-md-0 mt-2 signing-button" onclick="location.href='blog/blog.html'">Blog</button>
+            </li>
+            <li class="nav-item ml-md-5">
+              <button type="button" class="btn btn-sm btn-light text-danger mt-md-0 mt-4 signing-button" onclick="location.href='https:\/\/trade.wowoo.exchange/signin'">Sign in</button>
+            </li>
+            <li class="nav-item">
+              <button type="button" class="btn btn-sm btn-danger mt-md-0 mb-md-0 mt-2 mb-1 signing-button" onclick="location.href='https:\/\/trade.wowoo.exchange/signup'">
+                Sign Up
+              </button>
+            </li>
+          </ul>
+        </div>
       </nav>
     </div>
   </header>
@@ -348,6 +390,4 @@
 <script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
 <script type="text/javascript" src="./assets/js/config.js"></script>
 <script type="text/javascript" src="./assets/js/main.js"></script>
-<style type="text/css">
-</style>
 </html>
