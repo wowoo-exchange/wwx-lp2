@@ -101,6 +101,9 @@ Index Content Styles
 /* Medium devices and up */
 @media only screen and (min-width: 768px) {
   #promoModal .modal-dialog { margin-top: 10%; }
+  #header-content #exchange-for-everyone {
+    font-size: 55px;
+    padding-top: 20px; }
   #btn-signup a {
     margin-top: 20px;
     margin-bottom: 10px;
@@ -111,6 +114,5 @@ Index Content Styles
     text-align: center;
     line-height: 1;
     border-radius: 25px;
-    padding: 11px 45px;
-  }
+    padding: 11px 45px; }
 }

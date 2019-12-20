@@ -126,10 +126,6 @@ hr {
     display: block;
     max-width: 170px !important;
   }
-  #header-content #exchange-for-everyone {
-    font-size: 65px;
-    padding-top: 20px;
-  }
   #header .signing-button {
     padding-left: 20px;
     padding-right: 20px;
