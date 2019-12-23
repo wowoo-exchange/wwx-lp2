@@ -30,8 +30,8 @@ hr {
   background-color: #07132e;
   border: none; }
 .figure-caption { font-size: 80% !important; }
-.normal { font-weight: normal; } 
-.thick { font-weight: bold; } 
+.normal { font-weight: normal; }
+.thick { font-weight: bold; }
 .thicker { font-weight: 900; }
 .text-truncate-2 {
   -webkit-line-clamp: 2;
@@ -101,14 +101,14 @@ hr {
     z-index: 1000 !important;
   }
   .navbar-collapse#navbarCollapse .signing-button {
-    width: 100% !important; 
+    width: 100% !important;
   }
   .navbar.navbar-expand-lg.navbar-dark .collapse.show {
     background-color: #151730 !important;
     /*box-shadow: 0 2px 4px 0 rgba(10, 20, 47, 0.30) !important; */
   }
   #header >nav {
-    background-color: #07132e; 
+    background-color: #07132e;
   }
   #header #logo {
     height: 40px !important;
