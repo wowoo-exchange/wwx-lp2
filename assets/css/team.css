@@ -2,14 +2,6 @@
   padding-top: 80px;
   -webkit-transform: translate(0,0);
   transform: translate(0,0); }
-#content1 { padding-top: 150px; }
-#content1 h1 {
-  font-size: 70px;
-  text-align: left;
-  line-height: 75px;
-  font-weight: 900;
-  color: rgb(61, 73, 87);
-  margin: 0px; }
 #content1 p {
   font-weight: 300;
   color: rgb(74, 74, 74);
