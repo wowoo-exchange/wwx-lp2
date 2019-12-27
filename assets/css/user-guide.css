@@ -1,0 +1,39 @@
+.h1, .h2, .h3, .h4, .h5 { 
+	color: rgb(61, 73, 87); 
+	font-weight: lighter !important; }
+.btn-text-rounded {
+	padding: 0px 18px 0px 18px;
+	font-size: 30px;
+	border-radius: 10px; }
+.btn-number-circle {
+  color: #fff;
+  font-size: 25px;
+  padding: 1px 10px 1px 10px;
+  border-radius: 100%;
+  background-color: red;
+  display: table;
+  width: 35px; }
+
+ /* Medium devices and down */
+@media only screen and (max-width: 767px) {
+  .flex-wrap-disp { flex-wrap: wrap; }
+  .row.flex-wrap-disp>img { 
+  	width: 100%; 
+  	height: 320px; }
+  .title-cap-lg { font-size: 70px; }
+  .row.mb-3.justify-content-left>h3 {
+  	font-size: 100%; }
+}
+
+/* Medium devices and up */
+@media only screen and (min-width: 768px) {
+	.title-cap-lg { font-size: 85px; }
+  .flex-wrap-disp { flex-wrap: nowrap; }
+  .row.flex-wrap-disp>img { 
+  	width: 250px; 
+  	height: 250px; }
+  .at-glance-imgs {
+  	max-width: 100%;
+  	width: 135px;
+    height: 135px; }
+}
