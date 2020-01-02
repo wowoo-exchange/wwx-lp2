@@ -3,14 +3,7 @@ body {
   background-repeat: no-repeat;
   background-size: 630px;
   background-position: 108% -150px;
-  background-attachment: fixed;
-}
-
-#content1 {
-  padding-top: 85px; }
-#content1 h1#content-title {
-  text-align: left;
-  line-height: 75px; }
+  background-attachment: fixed; }
 .disclaimer {
 	background: #E6211A !important;
 	color: #e8e8e8;

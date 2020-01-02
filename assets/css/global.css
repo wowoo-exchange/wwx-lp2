@@ -38,8 +38,15 @@ hr {
   overflow : hidden;
   text-overflow: ellipsis;
   display: -webkit-box;
-  -webkit-box-orient: vertical;
-}
+  -webkit-box-orient: vertical; }
+#content1 {
+  padding-top: 85px;
+  color: rgb(61, 73, 87); }
+#content1 h1#content-title {
+  font-size: 50px;
+  line-height: 75px;
+  font-weight: 900;
+  color: rgb(61, 73, 87); }
 
 /*Header*/
 /*sticky header styles*/
