@@ -23,6 +23,7 @@
   .title-cap-lg { font-size: 70px; }
   .row.mb-3.justify-content-center>h3 {
   	font-size: 100%; }
+  .row.flex-wrap-disp>img { width: 100%; }
 }
 
 /* Medium devices and up */
@@ -30,8 +31,9 @@
 	.title-cap-lg { font-size: 85px; }
   .flex-wrap-disp { flex-wrap: nowrap; }
   .row.flex-wrap-disp>img { 
-  	width: 250px; 
-  	height: 250px; }
+  	/*width: 185px; */
+  	/*height: 250px; */
+  }
   .at-glance-imgs {
   	max-width: 100%;
   	width: 150px;
