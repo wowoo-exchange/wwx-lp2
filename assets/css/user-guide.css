@@ -30,12 +30,11 @@
 @media only screen and (min-width: 768px) {
 	.title-cap-lg { font-size: 85px; }
   .flex-wrap-disp { flex-wrap: nowrap; }
-  .row.flex-wrap-disp>img { 
-  	/*width: 185px; */
-  	/*height: 250px; */
-  }
   .at-glance-imgs {
   	max-width: 100%;
   	width: 150px;
     height: 135px; }
+  p.ml-md-3.text-center.text-md-left {
+    padding: 0px 0px 0px 40px 
+  }
 }
