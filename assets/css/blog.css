@@ -1,6 +1,7 @@
 #content1 {
   padding-top: 85px;
   color: rgb(61, 73, 87); }
+#content1 a.red { color: #e4231b; }
 #content1 h1#content-title {
 	font-size: 50px;
   line-height: 75px;

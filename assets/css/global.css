@@ -13,6 +13,10 @@ a, a:hover {
   text-decoration: none;
   color: #fff;
 }
+a.danger { color: #e4231b; }
+a.dark { color: #0000; }
+a.warning { color: #FFC107; }
+a.default { color: #FFFF; }
 hr {
   margin-top: 1rem;
   margin-bottom: 1rem;
@@ -93,6 +97,10 @@ hr {
   height: 1px;
 }
 #footer-content-2 { background: #0f1128; }
+#footer-content-2 .disclaimer {
+  font-size: 12px;
+  background: none !important;
+}
 
 /*first container*/
 #header-content {
@@ -172,7 +180,7 @@ common header/footer styles
   border: 0px; }
 
 /* mailing list signup form */
-#join-mailing-list-message {
+/*#join-mailing-list-message {
   text-align: center;
   margin-top: -8px;
   font-size: 12px;
@@ -182,7 +190,7 @@ common header/footer styles
 #join-mailing-list-message .empty   { color: #8A5CE6; }
 #join-mailing-list-message .sending { color: #5CA1E6; }
 #join-mailing-list-message .success { color: #5CE673; }
-#join-mailing-list-message .error   { color: #E65C5C; }
+#join-mailing-list-message .error   { color: #E65C5C; }*/
 
 
 
