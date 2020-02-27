@@ -1,0 +1,90 @@
+body {
+	height: 100%;
+  width: auto;
+	background-size: 100%;
+	color: #ffff;
+  background-repeat: no-repeat;
+  background-color: #0e152f;
+	background-image:
+		url(../imgs/bg-header-left.svg),
+		url(../imgs/bg-header-right.svg),
+		linear-gradient(143.85deg, #0e152f 0%, #0e152f 100%);
+	background-position:
+		calc(-60px - 10vw) calc(-200px + 3vw),
+		calc(75vw - 150px) calc(-300px + 4vw),
+		0% 0%;
+	background-size: calc(350px + 20vw), calc(400px + 20vw), 100%;
+}
+
+#main { margin-bottom: 5rem; }
+
+#form-box {
+	margin-top: 140px !important;
+}
+form {
+	font-family: 'Roboto', ;
+	color: rgba(36, 58, 89, 0.6);
+	background-color: #fff;
+	margin-top: -53px;
+}
+
+#title {
+	font-family: 'Catamaran', ;
+	font-size: 35px;
+	font-weight: 100;
+	background-color: #E6211A;
+}
+
+.outer {
+  height: 15%;
+  background: #E6211A;
+  position: relative;
+}
+
+.inner {
+  height: 100%;
+  width: 100%;
+  background-color: #E6211A;
+}
+
+.triangle-down {
+  height: 40%;
+  width: 100%;
+  position: relative;
+}
+
+.triangle-down svg {
+  height: 100%;
+  width: 100%;
+  position: absolute;
+  top: 0;
+}
+
+svg .triangle-path {
+  fill: #E6211A;
+}
+
+.advantage-icons {
+	width: 60px;
+}
+
+.error {
+	color: #E6211A;
+}
+
+/* Medium devices and down */
+/*@media only screen and (max-width: 767px) {
+	.arrow-down {
+	  border-left: 135px solid transparent;
+	  border-right: 135px solid transparent;
+	}
+}*/
+
+
+/* Medium devices and up */
+/*@media only screen and (min-width: 768px) {
+	.arrow-down {
+	  border-left: 200px solid transparent;
+	  border-right: 200px solid transparent;
+	}
+}*/
