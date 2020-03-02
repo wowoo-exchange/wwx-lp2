@@ -72,6 +72,20 @@ svg .triangle-path {
 	color: #E6211A;
 }
 
+/*@media (min-width: 576px) {*/
+
+.modal.show .modal-dialog {
+	margin-top: 125px;
+}
+.modal-dialog.modal-dialog-centered {
+   min-height: calc(100% - 50rem);
+}
+
+.modal-dialog.modal-dialog-scrollable {
+   max-height: calc(65% - 20rem);
+}
+
+
 /* Medium devices and down */
 /*@media only screen and (max-width: 767px) {
 	.arrow-down {
