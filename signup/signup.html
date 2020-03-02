@@ -133,6 +133,52 @@
     </div>
   </main>
 
+  <div class="modal fade" id="termsAndConditions" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button type="button" class="btn invisible" data-toggle="modal" data-target="#termsAndConditions" id="termsAndConditionsModal">
+    Launch demo modal
+  </button>
+
+  <div class="modal fade" id="privacyPolicy" tabindex="-1" role="dialog" aria-labelledby="exampleModalLabel" aria-hidden="true">
+    <div class="modal-dialog" role="document">
+      <div class="modal-content">
+        <div class="modal-header">
+          <h5 class="modal-title" id="exampleModalLabel">Modal title</h5>
+          <button type="button" class="close" data-dismiss="modal" aria-label="Close">
+            <span aria-hidden="true">&times;</span>
+          </button>
+        </div>
+        <div class="modal-body">
+          ...
+        </div>
+        <div class="modal-footer">
+          <button type="button" class="btn btn-secondary" data-dismiss="modal">Close</button>
+          <button type="button" class="btn btn-primary">Save changes</button>
+        </div>
+      </div>
+    </div>
+  </div>
+  <button type="button" class="btn invisible" data-toggle="modal" data-target="#privacyPolicy" id="termsAndConditionsModal">
+    Launch demo modal
+  </button>
+
   <footer class="footer mt-auto">
     <!-- Footer Page -->
     <div class="jumbotron pt-5 pb-4 text-white" id="footer-content-1">
@@ -238,6 +284,8 @@
       console.log("dropdownCheck1");
       // disable again for the sake of Terms and Conditions
       $('#dropdownCheck1').click();
+      $('#termsAndConditionsModal').click();
+
     });
 
     // Send email into the subscribers DB
@@ -255,7 +303,6 @@
     $(function() {
       $("#submit_btn").click(() => {
         // validate and process form here
-
         $('.error').hide();
         var email = $("input#fieldEmail").val();
         if (email == "") {
