@@ -78,11 +78,11 @@ svg .triangle-path {
 	margin-top: 125px;
 }
 .modal-dialog.modal-dialog-centered {
-   min-height: calc(100% - 50rem);
+   min-height: calc(100% - 60rem);
 }
 
 .modal-dialog.modal-dialog-scrollable {
-   max-height: calc(65% - 20rem);
+   max-height: calc(70% - 15rem);
 }
 
 
