@@ -8,13 +8,15 @@
   <meta name="viewport" content="width=device-width, initial-scale=1, shrink-to-fit=no">
   <title>News & Updates | Wowoo Exchange Singapore</title>
   <!-- Bootstrap CSS -->
-  <link rel="stylesheet" href="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/css/bootstrap.min.css" integrity="sha384-Gn5384xqQ1aoWXA+058RXPxPg6fy4IWvTNh0E263XmFcJlSAwiGgFAW/dAiS6JXm" crossorigin="anonymous">
+  <link rel="stylesheet" href="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/css/bootstrap.min.css" integrity="sha384-MCw98/SFnGE8fJT3GXwEOngsV7Zt27NXFoaoApmYm81iuXoPkFOJwJ8ERdknLPMO" crossorigin="anonymous">
   <link href="https://stackpath.bootstrapcdn.com/font-awesome/4.7.0/css/font-awesome.min.css" rel="stylesheet" integrity="sha384-wvfXpqpZZVQGK6TAh5PVlGOfQNHSoD2xbE+QkPxCAFlNEevoEH3Sl0sibVcOQVnN" crossorigin="anonymous">
   <link href="https://fonts.googleapis.com/css?family=Roboto:400,500,700&display=swap" rel="stylesheet">
-
   <!-- Globa CSS -->
   <link href="../assets/css/global.css" rel="stylesheet" type="text/css" media="all">
   <link href="../assets/css/news.css" rel="stylesheet" type="text/css" media="all">
+  <link href="../assets/css/datatables-min.css" rel="stylesheet" type="text/css" media="all">
+  <link href="../assets/css/datatable.css" rel="stylesheet" type="text/css" media="all">
+
   <!-- Global site tag (gtag.js) - Google Analytics -->
   <script async src="https://www.googletagmanager.com/gtag/js?id=G-L97ZW5Q67N"></script>
   <script>
@@ -64,60 +66,103 @@
 	  		<div class="col-md-8 offset-md-2 pt-md-5 pb-md-5">
 	        <h1 class="mb-5 text-center" id="content-title">News & Updates</h1>
 
-					<figure class="col">
-	        	<a href="2020/trm-is-mission-critical-for-fintech.html" class="h5">
-	        		TRM is Mission Critical for FinTech
-	        	</a>
-					  <figcaption class="figure-caption">Wowoo Exchange Singapore | 18 Feb 2020 </figcaption>
-					</figure>
-					<figure class="col">
-	        	<a href="2020/wowoo-exchange-hegion-crypto-currency-list.html" class="h5">
-	        		Hegion includes WES on its recommended Singapore crypto exchanges list
-	        	</a>
-					  <figcaption class="figure-caption">Wowoo Exchange Singapore | 20 Jan 2020 </figcaption>
-					</figure>
-					<figure class="col">
-	        	<a href="2019/wowoo-exchange-launch-new-instant-trade-feature.html" class="h5">
-	        		Wowoo Exchange Singapore launch new instant trade feature
-	        	</a>
-					  <figcaption class="figure-caption">Wowoo Exchange Singapore | 06 Dec 2019 </figcaption>
-					</figure>
-					<figure class="col">
-	        	<a href="2019/press-release.html" class="h5">
-	        		Wowoo Exchange Singapore announces official launch of digital assets trading platform
-	        	</a>
-					  <figcaption class="figure-caption">Wowoo Exchange Singapore | 12 Sept 2019 </figcaption>
-					</figure>
-					<figure class="col">
-	        	<a href="2019/july.html" class="h5">
-	        		July 2019 Updates
-	        	</a>
-					  <figcaption class="figure-caption">Wowoo Exchange Singapore | 01 Aug 2019 </figcaption>
-					</figure>
-					<figure class="col">
-	        	<a href="2019/live.html" class="h5">
-	        		The Wowoo Exchange Singapore trading platform is LIVE!
-	        	</a>
-					  <figcaption class="figure-caption">Wowoo Exchange Singapore | 04 Jul 2019 </figcaption>
-					</figure>
-					<figure class="col">
-	        	<a href="2019/june.html" class="h5">
-	        		June 2019 Updates
-	        	</a>
-					  <figcaption class="figure-caption">Wowoo Exchange Singapore | 24 Jun 2019 </figcaption>
-					</figure>
-					<figure class="col">
-	        	<a href="https://markets.businessinsider.com/news/stocks/wowoo-exchange-bolsters-its-platform-through-partnership-with-cynopsis-solutions-1028265492" class="h5">
-	        		Wowoo Exchange Singapore chose Cynopsis Solutions to be its official KYC partner
-	        	</a>
-					  <figcaption class="figure-caption">Market Insights | 10 Jun 2019 </figcaption>
-					</figure>
-					<figure class="col">
-	        	<a href="https://finance.yahoo.com/news/onchain-partners-wowoo-deliver-premium-090004890.html" class="h5">
-	        		Onchain Custodian has announced a partnership with Wowoo Exchange Singapore
-	        	</a>
-					  <figcaption class="figure-caption">Yahoo! Finance | 16 May 2019 </figcaption>
-					</figure>
+	        <table id="dtBasic" class="table table-borderless w-100">
+					  <thead>
+					    <tr>
+					      <th class="th-sm" hidden>Title </th>
+					    </tr>
+					  </thead>
+					  <tbody>
+					    <tr>
+					      <td>
+					      	<a href="2020/trm-governance.html" class="h5">
+				        		TRM in FinTech: Governance
+				        	</a>
+								  <figcaption class="figure-caption">Wowoo Exchange Singapore | 28 Feb 2020 </figcaption>
+					      </td>
+					    </tr>
+					    <tr>
+					      <td>
+					      	<a href="2020/trm-is-it-tech-or-compliance.html" class="h5">
+				        		TRM in FinTech: Tech or Compliance
+				        	</a>
+								  <figcaption class="figure-caption">Wowoo Exchange Singapore | 20 Feb 2020 </figcaption>
+					      </td>
+					    </tr>
+					    <tr>
+					      <td>
+					      	<a href="2020/trm-is-mission-critical-for-fintech.html" class="h5">
+				        		TRM is Mission Critical for FinTech
+				        	</a>
+								  <figcaption class="figure-caption">Wowoo Exchange Singapore | 18 Feb 2020 </figcaption>
+					      </td>
+					    </tr>
+					    <tr>
+					      <td>
+					      	<a href="2020/wowoo-exchange-hegion-crypto-currency-list.html" class="h5">
+				        		Hegion includes WES on its recommended Singapore crypto exchanges list
+				        	</a>
+								  <figcaption class="figure-caption">Wowoo Exchange Singapore | 20 Jan 2020 </figcaption>
+					      </td>
+					    </tr>
+					    <tr>
+						    <td>
+				        	<a href="2019/wowoo-exchange-launch-new-instant-trade-feature.html" class="h5">
+				        		Wowoo Exchange Singapore launch new instant trade feature
+				        	</a>
+								  <figcaption class="figure-caption">Wowoo Exchange Singapore | 06 Dec 2019 </figcaption>
+								</td>
+							</tr>
+							<tr>
+								<td>
+				        	<a href="2019/press-release.html" class="h5">
+				        		Wowoo Exchange Singapore announces official launch of digital assets trading platform
+				        	</a>
+								  <figcaption class="figure-caption">Wowoo Exchange Singapore | 12 Sept 2019 </figcaption>
+								</td>
+							</tr>
+							<tr>
+								<td>
+				        	<a href="2019/july.html" class="h5">
+				        		July 2019 Updates
+				        	</a>
+								  <figcaption class="figure-caption">Wowoo Exchange Singapore | 01 Aug 2019 </figcaption>
+								</td>
+							</tr>
+							<tr>
+								<td>
+				        	<a href="2019/live.html" class="h5">
+				        		The Wowoo Exchange Singapore trading platform is LIVE!
+				        	</a>
+								  <figcaption class="figure-caption">Wowoo Exchange Singapore | 04 Jul 2019 </figcaption>
+								</td>
+							</tr>
+							<tr>
+								<td>
+				        	<a href="2019/june.html" class="h5">
+				        		June 2019 Updates
+				        	</a>
+								  <figcaption class="figure-caption">Wowoo Exchange Singapore | 24 Jun 2019 </figcaption>
+								</td>
+							</tr>
+							<tr>
+								<td>
+				        	<a href="https://markets.businessinsider.com/news/stocks/wowoo-exchange-bolsters-its-platform-through-partnership-with-cynopsis-solutions-1028265492" class="h5">
+				        		Wowoo Exchange Singapore chose Cynopsis Solutions to be its official KYC partner
+				        	</a>
+								  <figcaption class="figure-caption">Market Insights | 10 Jun 2019 </figcaption>
+								</td>
+							</tr>
+							<tr>
+								<td>
+				        	<a href="https://finance.yahoo.com/news/onchain-partners-wowoo-deliver-premium-090004890.html" class="h5">
+				        		Onchain Custodian has announced a partnership with Wowoo Exchange Singapore
+				        	</a>
+								  <figcaption class="figure-caption">Yahoo! Finance | 16 May 2019 </figcaption>
+								</td>
+							</tr>
+					  </tbody>
+					</table>
 	      </div>
 	  	</div>
 	  </div>
@@ -208,9 +253,14 @@
 	  </div>
 	</footer>
 	<script src="https://code.jquery.com/jquery-3.2.1.slim.min.js" integrity="sha384-KJ3o2DKtIkvYIK3UENzmM7KCkRr/rE9/Qpg6aAZGJwFDMVNA/GpGFF93hXpG5KkN" crossorigin="anonymous"></script>
-	<script src="https://maxcdn.bootstrapcdn.com/bootstrap/4.0.0/js/bootstrap.min.js" integrity="sha384-JZR6Spejh4U02d8jOt6vLEHfe/JQGiRRSQQxSfFWpi1MquVdAyjUar5+76PVCmYl" crossorigin="anonymous"></script>
+	<script src="https://cdnjs.cloudflare.com/ajax/libs/popper.js/1.14.3/umd/popper.min.js" integrity="sha384-ZMP7rVo3mIykV+2+9J3UJ46jBk0WLaUAdn689aCwoqbBJiSnjAK/l8WvCWPIPm49" crossorigin="anonymous"></script>
+	<script src="https://stackpath.bootstrapcdn.com/bootstrap/4.1.3/js/bootstrap.min.js" integrity="sha384-ChfqqxuZUCnJSK3+MXmPNIyE6ZbWh2IMqE241rYiqJxyMiZ6OW/JmZQ5stwEULTy" crossorigin="anonymous"></script>
 	<script type="text/javascript" src="../assets/js/config.js"></script>
 	<script type="text/javascript" src="../assets/js/main.js"></script>
+
+	<!-- Data table plugin -->
+	<script type="text/javascript" src="../assets/js/datatables-min.js"></script>
+	<script type="text/javascript" src="../assets/js/datatable.js"></script>
 
 </body>
 </html>

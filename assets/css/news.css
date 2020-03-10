@@ -1,9 +1,8 @@
-figure>a:hover {
+td>a:hover {
   text-decoration: none;
   color: rgb(61, 73, 87); }
 
-p>a, p>a:hover, 
-td>a, td>a:hover {
+p>a, p>a:hover{
   text-decoration: none;
   color: rgb(0, 81, 255);
 }
